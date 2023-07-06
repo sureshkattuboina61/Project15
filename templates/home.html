@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#00ffff">
+<form action="./input" method="post">
+    {% csrf_token %}
+    Enter Fno:<input type="text" name="t1"><br>
+    Enter Sno:<input type="text" name="t2"><br>
+    <input type="submit" value="send">
+</form>
+
+</body>
+</html>
